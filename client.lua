@@ -6,8 +6,8 @@ RegisterNetEvent('nekopeds:client:openmenu', function(identifier)
 
     for _, value in ipairs(Config.Players[identifier]) do
         table.insert(tablePeds, {
-            header = Config.menuTitle..value.name,
-            icon = Config.menuIcon,
+            header = Config.optionTitle..value.name,
+            icon = Config.optionIcon,
             txt = 'pedId: '..value.ped,
             params = { event = 'neko-switchped', args = { ped = value.ped } }
         })
