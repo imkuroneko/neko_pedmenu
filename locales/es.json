@@ -1,0 +1,16 @@
+{
+    "command_help_open_peds" : "Acceder a mi lista de peds",
+    "command_help_giveped" : "Habilitar ped a un jugador",
+    "peds_not_found" : "No tienes peds disponibles",
+    "menu_setped_title" : "Mis peds",
+    "menu_setped_option" : "Utilizar '%s'",
+    "menu_setped_option_reset" : "Apariencia original",
+
+    "menu_giveped_title" : "Habilitar ped a un jugador",
+    "giveped_user" : "Jugador",
+    "giveped_ped" : "PED a otorgar",
+    "giveped_temporal" : "Temporal (no se guarda en BD)",
+    "giveped_cancelled" : "Saliste del menú de otorgación de ped",
+
+    "player_has_this_ped" : "Este jugador ya tiene acceso a este ped"
+}

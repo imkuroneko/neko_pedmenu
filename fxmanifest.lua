@@ -1,18 +1,14 @@
-author 'imkuroneko'
+fx_version  'cerulean'
+game        'gta5'
+lua54       'yes'
+-- ===========================================================
 description 'Sistema de PEDs'
-version '1.0.0'
+author      'KuroNeko'
+-- ===========================================================
+version     '1.1.0'
 
-lua54 'yes'
-
-fx_version 'cerulean'
-game 'gta5'
-
-client_scripts {
-    'config.lua',
-    'client.lua'
-}
-
-server_scripts {
-    'config.lua',
-    'server.lua'
-}
+-- ===========================================================
+shared_scripts { '@ox_lib/init.lua', 'config.lua' }
+server_scripts { 'peds.lua', 'server.lua' }
+client_scripts { 'client.lua' }
+files          { 'locales/es.json' }
