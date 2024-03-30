@@ -47,7 +47,7 @@ RegisterNetEvent('neko_pedmenu:client:open_menu_give_ped', function(data)
 
     if not input then return lib.notify({ description = locale('giveped_cancelled'), type = 'info' }) end
 
-    TriggerServerEvent("neko_pedmenu:server:give_ped_to_player", { playerId = input[1], pedName = input[2], permanentPed = input[3] })
+    TriggerServerEvent("neko_pedmenu:server:give_ped_to_player", { playerId = input[1], pedName = input[2], temporalPed = input[3] })
 end)
 
 RegisterNetEvent('neko_pedmenu:client:open_menu_set_ped', function(data)
