@@ -19,9 +19,6 @@ Sistema para otorgar peds permanentemente (registro en BD) o de forma temporal (
 <br>
 
 ### 🦄 Detalles
-- Todos los items deben estar registrados en `ox_inventory/data/items.lua` (de usar este inventario)
-- Los items de menú deben tener el nombre de `menu_{nombrefaccion}` (ej: `menu_pizzeria`)
-- Los items para craftear la comida o bebida (se pueden setear como `''` o `false` si no se utilizará)
 - Todos los textos se encuentran en `locales/es.json` por si desees agregar otros idiomas o modificar algo a tu gusto.
 
 <br>
